@@ -1,0 +1,5 @@
+.DS_Store
+*.bak
+*.project
+src/android/.gradle
+src/android/.settings

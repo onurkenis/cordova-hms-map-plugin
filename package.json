@@ -1,0 +1,14 @@
+{
+  "name": "com.huawei.hmsmapplugin",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "com.huawei.hmsmapplugin",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "ISC"
+}
