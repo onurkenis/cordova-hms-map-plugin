@@ -6,7 +6,10 @@
     </js-module>
     <platform name="android">
         <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
-
+		
+        <resource-file src="src/android/res/activity_maps.xml" target="res/layout/activity_maps.xml" />
+        <resource-file src="src/android/res/badge_ph.jpg" target="res/drawable/badge_ph.jpg" />
+		
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="HMSMapPlugin">
                 <param name="android-package" value="com.huawei.hmsmapplugin.HMSMapPlugin" />
