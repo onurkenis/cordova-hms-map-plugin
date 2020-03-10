@@ -56,7 +56,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             ActivityCompat.requestPermissions(this, RUNTIME_PERMISSIONS, REQUEST_CODE);
         }
 
-        int mapViewId = getResources().getIdentifier("mapView", "layout", getPackageName());
+        int mapViewId = getResources().getIdentifier("mapView", "id", getPackageName());
         mMapView = findViewById(mapViewId);
 
         Bundle mapViewBundle = null;
