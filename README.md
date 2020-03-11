@@ -8,6 +8,9 @@ Follow official [codelab](https://developer.huawei.com/consumer/en/codelab/HMSPr
 
 ## Usage
 
+You can directly use that plugin with ```cordova plugin add https://github.com/onurkenis/cordova-hms-map-plugin ``` but since it is not a complete plugin, this usage is only recommended to test the current result.
+
+
 1. Clone this repository and make any customizations by your needs
 
 ```sh
